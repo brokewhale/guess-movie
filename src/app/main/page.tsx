@@ -13,7 +13,7 @@ const Main = (props: Props) => {
           <Image src={QuestionMarkLogo} alt="Question Mark" />
         </div>
       </Link>
-      <h1 className="font-normal text-7xl leading-[63px] text-center">
+      <h1 className="font-normal text-7xl leading-[63px] text-center text-white">
         Guess the Movie
       </h1>
 
@@ -37,7 +37,7 @@ const Main = (props: Props) => {
             key={answer}
             className="flex-[50%] w-full max-w-[480px] h-[81.55px] border border-white border-solid rounded-md hover:bg-[#03C988] hover:text-[#050019] hover:border-[#03C988] transition"
           >
-            <span className=" font-normal  text-3xl leading-[63px]  cursor-pointer ">
+            <span className=" font-normal text-white  text-3xl leading-[63px]  cursor-pointer ">
               {answer}
             </span>
           </button>
