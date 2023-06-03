@@ -7,7 +7,7 @@ type Props = {};
 
 const Main = (props: Props) => {
   return (
-    <main className="flex flex-col items-center justify-center h-full gap-8 p-6">
+    <main className="flex flex-col items-center justify-center h-full min-h-screen gap-8 p-6">
       <Link href="/">
         <div>
           <Image src={QuestionMarkLogo} alt="Question Mark" />
